@@ -10524,3 +10524,7 @@ p {
   display: flex;
   gap: 10px;
 }
+.content-container {
+  position: relative;
+  right: 30px;
+}
