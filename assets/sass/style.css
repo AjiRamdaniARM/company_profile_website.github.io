@@ -398,13 +398,13 @@ p {
   position: relative;
   text-transform: capitalize;
   font-family: var(--heading-font);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 94, 0);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
   display: inline-block;
   margin-bottom: 14px;
-  background: #ff8c00bd;
+  background: #ffa63a45;
   padding: 1px 25px;
   border-radius: 10px;
 }
