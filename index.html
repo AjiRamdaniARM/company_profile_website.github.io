@@ -488,7 +488,7 @@
 									Perusahaan ini juga mengembangkan teknologi robotic, AI dan IoT untuk
 									memudahkan transformasi digital di berbagai sektor.
 									</p>
-									<span id="show-more" style="color: #0E59F2;">Lihat Selengkapnya</span>
+									<span id="show-more" class="more" style="color: #0E59F2;">Lihat Selengkapnya</span>
 									<script>
 									const showMoreBtn = document.getElementById('show-more');
 									const fullText = document.getElementById('full-text');
@@ -512,8 +512,28 @@
 								</div>
 								<div class="services__one-single-service-content">
 									<h4>Konsultan IT</h4>
-									<p>Layanan konsultasi IT membantu perusahaan mengadopsi teknologi terbaru
+									<p id="short-text-2">Layanan konsultasi IT membantu perusahaan mengadopsi teknologi terbaru
 									dengan efektif</p>
+									<p id="full-text-2" style="display: none;">
+										Konsultan berpengalaman PT Suka Teknologi Global memberikan
+										panduan strategis mulai dari perencanaan, implementasi, hingga pemeliharaan
+										sistem. Fokusnya mencakup manajemen infrastruktur IT, pengelolaan data,
+										keamanan siber, dan transformasi digital.
+										</p>
+										<span id="show-more-2" class="more" style="color: #0E59F2;">Lihat Selengkapnya</span>
+										<script>
+											const showMoreBtn1 = document.getElementById('show-more-2');
+											const fullText1 = document.getElementById('full-text-2');
+											showMoreBtn1.addEventListener('click', function() {
+												if (fullText1.style.display === "none") {
+													fullText1.style.display = "block";
+													showMoreBtn1.textContent = "Lihat Lebih Sedikit";
+												} else {
+													fullText1.style.display = "none";
+													showMoreBtn1.textContent = "Lihat Selengkapnya";
+												}
+											});
+												</script>
 								</div>
 							</div>
 						</div>
@@ -536,9 +556,28 @@
 								<div class="services__one-single-service-content">
 									<h4>Pelatihan dan Sertifikasi
 									</h4>
-									<p>PT Suka Teknologi Global menyediakan program pelatihan dan sertifikasi BNSP
+									<p id="short-text-3">PT Suka Teknologi Global menyediakan program pelatihan dan sertifikasi BNSP
 										berbasis SKKNI di berbagai bidang teknologi informasi</p>
-
+										<p id="full-text-3" style="display: none;">
+											Konsultan berpengalaman PT Suka Teknologi Global memberikan
+											panduan strategis mulai dari perencanaan, implementasi, hingga pemeliharaan
+											sistem. Fokusnya mencakup manajemen infrastruktur IT, pengelolaan data,
+											keamanan siber, dan transformasi digital.
+										</p>
+										<span id="show-more-3" class="more" style="color: #0E59F2;">Lihat Selengkapnya</span>
+										<script>
+											const showMoreBtn2 = document.getElementById('show-more-3');
+											const fullText2 = document.getElementById('full-text-3');
+											showMoreBtn1.addEventListener('click', function() {
+												if (fullText2.style.display === "none") {
+													fullText2.style.display = "block";
+													showMoreBtn2.textContent = "Lihat Lebih Sedikit";
+												} else {
+													fullText2.style.display = "none";
+													showMoreBtn2.textContent = "Lihat Selengkapnya";
+												}
+											});
+												</script>
 								</div>
 							</div>
 						</div>
