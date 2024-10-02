@@ -134,6 +134,11 @@ a:hover {
   color: inherit;
 }
 
+.margin-custom {
+  position: relative;
+  margin-bottom: -50px;
+}
+
 .section-padding {
   padding: 120px 0px;
 }
