@@ -414,6 +414,21 @@ p {
   border-radius: 10px;
 }
 
+.subtitle-one-custom {
+  position: relative;
+  text-transform: capitalize;
+  font-family: var(--heading-font);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  display: inline-block;
+  margin-bottom: 14px;
+  background: #ffffff48;
+  padding: 1px 25px;
+  border-radius: 10px;
+}
+
 .subtitle-two {
   background: rgba(14, 89, 242, 0.2392156863);
 }
